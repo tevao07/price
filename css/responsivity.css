@@ -1,0 +1,49 @@
+@media (min-width: 650px) {
+    .infer {
+        display: flex;
+    }
+}
+
+.esquerdinha, .direitinha {
+    width: 100vh;
+    padding: 2.5rem;
+}
+
+main {
+    width: 640px;
+    padding: none;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.super {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 2.5rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+#first {
+    font-size: 1.125rem;
+}
+
+#second {
+    font-size: 1rem;
+}
+
+.esquerdinha {
+    border-bottom-left-radius: 8px;
+}
+
+.direitinha {
+    border-bottom-left-radius: none;
+    border-bottom-right-radius: 8px;
+}
